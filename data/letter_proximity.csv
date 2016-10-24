@@ -1,4 +1,4 @@
-﻿First Letter,Second Letter,% probability Second Letter follows First Letter
+first_letter,second_letter,cond_prob
 _,a,11.291625661
 _,b,4.682943604
 _,c,4.386648429
