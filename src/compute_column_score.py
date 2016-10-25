@@ -4,6 +4,7 @@ import sys
 import csv
 
 CHARACTERS = "abcdefghijklmnopqrstuvwxyz_~"
+BIG_INTEGER = 100
 
 def column_score(shredded_text, letter_proximity_matrix, column_i, column_j, row_count):
     score = 0.0
@@ -13,12 +14,10 @@ def column_score(shredded_text, letter_proximity_matrix, column_i, column_j, row
             letter_j = shredded_text[r][column_j].lower()
             letter_i = letter_i if (letter_i.isalpha()) else '_'
             letter_j = letter_j if (letter_j.isalpha()) else '_'
-            score += letter_proximity_matrix[letter_i][letter_j]
+            score += letter_proximity_matrix[letter_i][letter_j] / row_count
+        score = 100 - score
 
-    if score != 0:
-        score = 1 / score
-
-    return score
+    return int(score)
 
 letter_proximity_csv = sys.argv[1]
 
@@ -36,20 +35,21 @@ for line in sys.stdin:
 
 row_count = len(shredded_text)
 column_count = len(shredded_text[0])
+dimension = column_count + 1
 
 print "NAME : column similarity";
 print "TYPE : ATSP"
-print "DIMENSION : " + str(column_count)
+print "DIMENSION : " + str(dimension)
 print "EDGE_WEIGHT_TYPE : EXPLICIT"
 print "EDGE_WEIGHT_FORMAT : FULL_MATRIX"
 print "NODE_COORD_TYPE : NO_COORDS"
 print "DISPLAY_DATA_TYPE : NO_DISPLAY\n"
 print "EDGE_WEIGHT_SECTION :"
 
-print "0 " * column_count
+print "0 " * dimension
 
 for i in range(column_count):
-    row = ''
+    row = "0 "
     for j in range(column_count):
         row += str(column_score(shredded_text, letter_proximity_matrix, i, j, row_count)) + " "
     print row
