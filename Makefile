@@ -1,11 +1,11 @@
-TEXTS = engadget.txt atom.txt
+TEXTS = engadget.txt atom.txt 1984.txt
 
 build: LKH-2.0.7/LKH shredded_texts build_message
 
 reconstruct: $(foreach text,$(TEXTS),$(patsubst %,texts/reconstructed/%,$(text))) reconstruct_message
 
 clean:
-	rm -rf texts/shredded/* tsp/*/* LKH-2.0.7 bin/compute_scores
+	rm -rf texts/shredded/* texts/reconstructed/* tsp/*/* LKH-2.0.7 bin/compute_scores
 
 shredded_texts: $(foreach text,$(TEXTS),$(patsubst %,texts/shredded/%,$(text)))
 
