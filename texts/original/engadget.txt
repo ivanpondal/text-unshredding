@@ -1,5 +1,68 @@
-Look, we get it. Sometimes it's hard to keep up on all the latest happenings in
-the world of tech. That's why Engadget has a newsletter that delivers the top
-stories of the day directly to your inbox. Sure, it's functional, but honestly,
-it doesn't live up to our standards. So, Saturday morning will see the launch of
-our new and improved newsletter: The Morning After.
+The holiday shopping season is a mere four weeks away, which means that tech
+companies need to get their products out, stat. We've already seen launches
+from Google and Apple, but now it's time for Microsoft to unleash the gadgets
+you'll be lusting after this December. The rumor mill has already given us
+clues as to what we might see at the company's big reveal later this week (and
+no, a Surface Pro 5 probably isn't on the menu). We've rounded up the likeliest
+bets here. Have a look, pre-order some popcorn and then prepare to follow along
+with our liveblog as it unfolds on Wednesday.
+
+Following a sluggish start, Microsoft's Surface line of Windows devices has
+become something of a blockbuster. Sales of the Surface Pro 4 and Surface Book
+are now close to making the division a billion-dollar business for the
+historically software-led company. That's why it's no surprise to see hints
+that Microsoft will add yet another device to its burgeoning hardware lineup.
+
+According to ZDNet's Mary Jo Foley, the company will use the event to showcase
+a product called "Cardinal" that will operate as an all-in-one PC. It's not
+clear how this unit will work in the real world, although Windows Central
+theorizes it'll be a large, tablet-like device that can be used as a display or
+as a desk. Patent drawings (pictured above) suggest an all-in-one PC that's
+part iMac, part Wacom Cintiq pen display, and part home theater. That patent,
+however, relates to a modular device that could be augmented with add-on units,
+perhaps like Acer's Revo Build PCs.
+
+Foley understands that Cardinal will be sold in a variety of different screen
+sizes, ranging from 21 inches all the way up to 27. Alternatively, the device
+could be marketed as a scaled-down version of the company''s Surface Hub, with
+a giant touch display for museums and businesses that want more than just a
+whiteboard. Given how the Surface Pro 4 and Surface Hub allow for precise
+input, that Cintiq comparison might be quite relevant.
+
+Fans of existing Surface devices may be disappointed on Wednesday, as rumors
+suggest there will be no Surface Pro 5 or second-generation Surface Book at
+this week's event. Instead, those two devices will get their own flashy launch
+party in early 2017, in time for a spring or summer ship date. That said, the
+company may incorporate a spec bump into the existing models to accommodate
+Intel's latest Kaby Lake seventh-generation Core processors.
+
+It would be a massive surprise if Microsoft also used this event to trot out
+the long-rumored Surface Phone. The company seems to have all but given up on
+mobile at this point. Indeed, that rumored Lumia follow-up has reportedly been
+pushed back to 2018, if it's ever released at all. Given how the smartphone
+world is currently atrophying, it seems like the company should stop wasting
+time and money on a device that stands little chance of stealing market share
+from Android and iOS.
+
+Windows 10 is expected to be the focal point of Wednesday's event -- it is,
+after all, the glue holding together the company's hardware lineup. That said,
+it looks as if Microsoft won't have anything too earth-shattering to show off.
+Windows Central and ZDNet believe that the bulk of the conversation will center
+on the so-called Redstone 2 update to Windows 10, which is due early next year.
+The update mostly provides minor improvements to the OS, including enhancements
+to the camera app and better drawing support for Windows Ink. But those may
+become headline features if the Surface all-in-one is geared toward creative
+professionals, like graphic designers.
+
+The company may also want to use the event to remind customers that it's
+cleared the way for legacy Windows apps to come to Windows 10. As VentureBeat
+reported back in September, Win32 apps and games are slowly filtering into the
+store now that the company's Desktop App Converter is available. That tool can
+pull older Win32 programs and repackage them for the firm's newfangled Windows
+Universal Platform.
+
+One thing we're certain we won't hear is any serious discussion of Microsoft
+Office, mostly because Microsoft is planning to put on a separate keynote
+dedicated solely to its productivity suite. The week after this
+consumer-focused shindig, the company will host a media event in Manhattan
+exploring how Office can "empower every team to achieve more."

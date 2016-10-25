@@ -4,7 +4,7 @@ import math
 import random
 import sys
 
-COLUMN_WIDTH = 40
+COLUMN_WIDTH = 80
 PADDING_CHAR = '~'
 
 def add_shuffled_column(original_text_matrix, shuffled_text_matrix, column, row_count):

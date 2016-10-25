@@ -4,7 +4,7 @@ import sys
 import csv
 
 CHARACTERS = "abcdefghijklmnopqrstuvwxyz_~"
-BIG_INTEGER = 100
+BIG_INTEGER = 100000
 
 def column_score(shredded_text, letter_proximity_matrix, column_i, column_j, row_count):
     score = 0.0
@@ -15,7 +15,7 @@ def column_score(shredded_text, letter_proximity_matrix, column_i, column_j, row
             letter_i = letter_i if (letter_i.isalpha()) else '_'
             letter_j = letter_j if (letter_j.isalpha()) else '_'
             score += letter_proximity_matrix[letter_i][letter_j] / row_count
-        score = 100 - score
+        score = BIG_INTEGER - score * 1000
 
     return int(score)
 

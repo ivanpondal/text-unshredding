@@ -1,4 +1,4 @@
-TEXTS = engadget.txt
+TEXTS = engadget.txt atom.txt
 
 build: LKH-2.0.7/LKH shredded_texts build_message
 
