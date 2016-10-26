@@ -43,26 +43,3 @@ pushed back to 2018, if it's ever released at all. Given how the smartphone
 world is currently atrophying, it seems like the company should stop wasting
 time and money on a device that stands little chance of stealing market share
 from Android and iOS.
-
-Windows 10 is expected to be the focal point of Wednesday's event -- it is,
-after all, the glue holding together the company's hardware lineup. That said,
-it looks as if Microsoft won't have anything too earth-shattering to show off.
-Windows Central and ZDNet believe that the bulk of the conversation will center
-on the so-called Redstone 2 update to Windows 10, which is due early next year.
-The update mostly provides minor improvements to the OS, including enhancements
-to the camera app and better drawing support for Windows Ink. But those may
-become headline features if the Surface all-in-one is geared toward creative
-professionals, like graphic designers.
-
-The company may also want to use the event to remind customers that it's
-cleared the way for legacy Windows apps to come to Windows 10. As VentureBeat
-reported back in September, Win32 apps and games are slowly filtering into the
-store now that the company's Desktop App Converter is available. That tool can
-pull older Win32 programs and repackage them for the firm's newfangled Windows
-Universal Platform.
-
-One thing we're certain we won't hear is any serious discussion of Microsoft
-Office, mostly because Microsoft is planning to put on a separate keynote
-dedicated solely to its productivity suite. The week after this
-consumer-focused shindig, the company will host a media event in Manhattan
-exploring how Office can "empower every team to achieve more."
