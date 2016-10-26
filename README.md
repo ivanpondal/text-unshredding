@@ -38,7 +38,7 @@ columns one can measure how probable it is that they're together.
 To my convenience, a blogger named [David Taylor
 had already published an
 article](http://www.prooffreader.com/2014/09/how-often-does-given-letter-follow.html)
-were he shared these frequencies.
+where he shared these frequencies.
 
 ## Results
 
