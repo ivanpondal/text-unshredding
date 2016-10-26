@@ -12,8 +12,8 @@ def column_score(shredded_text, letter_proximity_matrix, column_i, column_j, row
         for r in range(row_count):
             letter_i = shredded_text[r][column_i].lower()
             letter_j = shredded_text[r][column_j].lower()
-            letter_i = letter_i if (letter_i.isalpha()) else '_'
-            letter_j = letter_j if (letter_j.isalpha()) else '_'
+            letter_i = letter_i if (letter_i.isalpha() or letter_i == '~') else '_'
+            letter_j = letter_j if (letter_j.isalpha() or letter_j == '~') else '_'
             score += letter_proximity_matrix[letter_i][letter_j] / row_count
         score = MAX_DISSIMILARITY - (score / 100) * MAX_DISSIMILARITY
 
